@@ -1,0 +1,34 @@
+{
+    "name": "ehsanmoradi/laravel-sms",
+    "description": "send sms for laravel",
+    "authors": [
+        {
+            "name": "Ehsan moradi",
+            "email": "ehsanmoradi.a@gmail.com"
+        }
+    ],
+    "require": {
+        "laravel/framework": "^7.0|^8.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "EhsanMoradi\\LaravelSms\\": "src/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "EhsanMoradi\\LaravelSms\\Provider\\SmsServiceProvider"
+            ],
+            "aliases": {
+                "Kavenegar": "EhsanMoradi\\LaravelSms\\Facade\\Kavenegar",
+                "Ghasedak": "EhsanMoradi\\LaravelSms\\Facade\\Ghasedak"
+            }
+        }
+    }
+}
