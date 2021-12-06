@@ -1,6 +1,7 @@
 {
     "name": "ehsanmoradi/laravel-sms",
     "description": "send sms for laravel",
+	"keywords": ["Laravel", "laravel-sms", "kavenegar", "ghasedak", "SMS"],
     "authors": [
         {
             "name": "Ehsan moradi",
