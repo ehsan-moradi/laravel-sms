@@ -131,16 +131,16 @@ methods:
 
     use EhsanMoradi\LaravelSms\Facade\Ghasedak;
 
-    Ghasedak::simple($message, $receptor, $lineNumber, $sendDate, $checkId)
+    Ghasedak::simple($message, $receptor, $lineNumber, $sendDate, $checkId);
     
-    Ghasedak::verification($message, $receptor, $type, $template, $checkId, $param1, $param2, $param3, $param4, $param5, $param6, $param7, $param8, $param9, $param10)
+    Ghasedak::verification($message, $receptor, $type, $template, $checkId, $param1, $param2, $param3, $param4, $param5, $param6, $param7, $param8, $param9, $param10);
 
-    Ghasedak::voice($message, $receptor, $sendDate)
+    Ghasedak::voice($message, $receptor, $sendDate);
 
-    Ghasedak::pair($message, $receptors, $lineNumber, $sendDate, $checkId)
+    Ghasedak::pair($message, $receptors, $lineNumber, $sendDate, $checkId);
 
-    Ghasedak::bulk($messages, $receptors, $lineNumbers, $sendDates, $checkIds)
+    Ghasedak::bulk($messages, $receptors, $lineNumbers, $sendDates, $checkIds);
 
-    Ghasedak::accountInfo()
+    Ghasedak::accountInfo();
 
-    Ghasedak::status($id, $type)
+    Ghasedak::status($id, $type);
